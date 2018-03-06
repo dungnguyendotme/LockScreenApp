@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#546E7A"
+    android:orientation="vertical">
+
+    <com.lockscreen.HorizontalPagerWithPageControl
+        android:id="@+id/horizontal_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:text="Sample text in Lock Screen"
+                android:textColor="#ffffff" />
+
+
+            <TextView
+                android:id="@+id/tvUnlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="Tap to unlock your phone"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:src="@drawable/vietlinkads" />
+
+            <Button
+                android:id="@+id/btnOpenApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="32dp"
+                android:text="Open App" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnOpenApp"
+                android:layout_below="@+id/btnOpenApp"
+                android:layout_marginTop="20dp"
+                android:text="Slide 2 &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;" />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:text="Sample text in Lock Screen"
+                android:textColor="#ffffff" />
+
+
+            <TextView
+                android:id="@+id/tvUnlock2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="Tap to unlock your phone"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:src="@drawable/vietlinkads" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="32dp"
+                android:text="&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Slide 1" />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+    </com.lockscreen.HorizontalPagerWithPageControl>
+
+
+
+
+</LinearLayout>

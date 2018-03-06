@@ -1,0 +1,4 @@
+#Wed Feb 28 14:48:29 ICT 2018
+base.0=D\:\\ntdung\\LockScreenApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
